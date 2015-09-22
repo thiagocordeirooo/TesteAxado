@@ -1,0 +1,5 @@
+C:\Users\tacordeiro\Documents\Visual Studio 2013\Projects\TesteAxado\tests\TAC.TesteAxado.Domain.Tests\bin\Debug\TAC.TesteAxado.Domain.Tests.dll
+C:\Users\tacordeiro\Documents\Visual Studio 2013\Projects\TesteAxado\tests\TAC.TesteAxado.Domain.Tests\bin\Debug\TAC.TesteAxado.Domain.Tests.pdb
+C:\Users\tacordeiro\Documents\Visual Studio 2013\Projects\TesteAxado\tests\TAC.TesteAxado.Domain.Tests\obj\Debug\TAC.TesteAxado.Domain.Tests.csprojResolveAssemblyReference.cache
+C:\Users\tacordeiro\Documents\Visual Studio 2013\Projects\TesteAxado\tests\TAC.TesteAxado.Domain.Tests\obj\Debug\TAC.TesteAxado.Domain.Tests.dll
+C:\Users\tacordeiro\Documents\Visual Studio 2013\Projects\TesteAxado\tests\TAC.TesteAxado.Domain.Tests\obj\Debug\TAC.TesteAxado.Domain.Tests.pdb

@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{BC7DBA78-6BDD-42B4-9F46-C6FBB595D2E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{6BED6FD1-17B0-4312-9D9D-20D84E4FF1D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{C1F38878-E83C-4CDA-9608-B9425A2FCF36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{B1628F4A-3DDC-4765-9E80-78C5CF5AFC90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{66522F5A-9F15-42F7-B070-EDB43E0121B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{7B8E600A-A6DF-4643-AD01-5C6ABF39375B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAC.TesteAxado.Domain", "src\TAC.TesteAxado.Domain\TAC.TesteAxado.Domain.csproj", "{D7370FDA-C2CF-4C3D-BFF9-E1F15216F59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAC.TesteAxado.Domain.Tests", "tests\TAC.TesteAxado.Domain.Tests\TAC.TesteAxado.Domain.Tests.csproj", "{9E9ACE65-C4EE-4A5C-B4FA-351C813B85A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAC.TesteAxado.Infra.Data", "src\TAC.TesteAxado.Infra.Data\TAC.TesteAxado.Infra.Data.csproj", "{80A8A862-7D60-4A00-BAC0-6F531D04FF74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAC.TesteAxado.Application", "src\TAC.TesteAxado.Application\TAC.TesteAxado.Application.csproj", "{E7ED774A-8869-4A89-BF75-0CA12DFB45B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAC.TesteAxado.Infra.CrossCuting.IoC", "src\TAC.TesteAxado.Infra.CrossCuting.IoC\TAC.TesteAxado.Infra.CrossCuting.IoC.csproj", "{24B87909-D42E-4986-BC4D-9FFA7CCAB915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAC.TesteAxado.Infra.CrossCuting.MvcFilters", "src\TAC.TesteAxado.Infra.CrossCuting.MvcFilters\TAC.TesteAxado.Infra.CrossCuting.MvcFilters.csproj", "{19A78361-E0A2-4404-ABF9-4F9CE38DE9AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAC.TesteAxado.Presentation.MVC", "src\TAC.TesteAxado.Presentation.MVC\TAC.TesteAxado.Presentation.MVC.csproj", "{63758EF4-365A-4E6B-951A-0DE7D9DA8BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAC.TesteAxado.Infra.CrossCuting.Identity", "src\TAC.TesteAxado.Infra.CrossCuting.Identity\TAC.TesteAxado.Infra.CrossCuting.Identity.csproj", "{570217AD-C5AE-4B7A-93DB-A2B61BD242E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7370FDA-C2CF-4C3D-BFF9-E1F15216F59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7370FDA-C2CF-4C3D-BFF9-E1F15216F59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7370FDA-C2CF-4C3D-BFF9-E1F15216F59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7370FDA-C2CF-4C3D-BFF9-E1F15216F59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9ACE65-C4EE-4A5C-B4FA-351C813B85A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9ACE65-C4EE-4A5C-B4FA-351C813B85A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9ACE65-C4EE-4A5C-B4FA-351C813B85A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9ACE65-C4EE-4A5C-B4FA-351C813B85A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A8A862-7D60-4A00-BAC0-6F531D04FF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A8A862-7D60-4A00-BAC0-6F531D04FF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A8A862-7D60-4A00-BAC0-6F531D04FF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A8A862-7D60-4A00-BAC0-6F531D04FF74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7ED774A-8869-4A89-BF75-0CA12DFB45B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7ED774A-8869-4A89-BF75-0CA12DFB45B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7ED774A-8869-4A89-BF75-0CA12DFB45B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7ED774A-8869-4A89-BF75-0CA12DFB45B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B87909-D42E-4986-BC4D-9FFA7CCAB915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B87909-D42E-4986-BC4D-9FFA7CCAB915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B87909-D42E-4986-BC4D-9FFA7CCAB915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B87909-D42E-4986-BC4D-9FFA7CCAB915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A78361-E0A2-4404-ABF9-4F9CE38DE9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A78361-E0A2-4404-ABF9-4F9CE38DE9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A78361-E0A2-4404-ABF9-4F9CE38DE9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A78361-E0A2-4404-ABF9-4F9CE38DE9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63758EF4-365A-4E6B-951A-0DE7D9DA8BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63758EF4-365A-4E6B-951A-0DE7D9DA8BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63758EF4-365A-4E6B-951A-0DE7D9DA8BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63758EF4-365A-4E6B-951A-0DE7D9DA8BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570217AD-C5AE-4B7A-93DB-A2B61BD242E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570217AD-C5AE-4B7A-93DB-A2B61BD242E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570217AD-C5AE-4B7A-93DB-A2B61BD242E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570217AD-C5AE-4B7A-93DB-A2B61BD242E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66522F5A-9F15-42F7-B070-EDB43E0121B4} = {C1F38878-E83C-4CDA-9608-B9425A2FCF36}
+		{7B8E600A-A6DF-4643-AD01-5C6ABF39375B} = {C1F38878-E83C-4CDA-9608-B9425A2FCF36}
+		{D7370FDA-C2CF-4C3D-BFF9-E1F15216F59E} = {B1628F4A-3DDC-4765-9E80-78C5CF5AFC90}
+		{9E9ACE65-C4EE-4A5C-B4FA-351C813B85A6} = {B1628F4A-3DDC-4765-9E80-78C5CF5AFC90}
+		{80A8A862-7D60-4A00-BAC0-6F531D04FF74} = {66522F5A-9F15-42F7-B070-EDB43E0121B4}
+		{E7ED774A-8869-4A89-BF75-0CA12DFB45B0} = {6BED6FD1-17B0-4312-9D9D-20D84E4FF1D8}
+		{24B87909-D42E-4986-BC4D-9FFA7CCAB915} = {7B8E600A-A6DF-4643-AD01-5C6ABF39375B}
+		{19A78361-E0A2-4404-ABF9-4F9CE38DE9AA} = {7B8E600A-A6DF-4643-AD01-5C6ABF39375B}
+		{63758EF4-365A-4E6B-951A-0DE7D9DA8BF9} = {BC7DBA78-6BDD-42B4-9F46-C6FBB595D2E6}
+		{570217AD-C5AE-4B7A-93DB-A2B61BD242E3} = {7B8E600A-A6DF-4643-AD01-5C6ABF39375B}
+	EndGlobalSection
+EndGlobal
